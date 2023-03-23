@@ -1,0 +1,58 @@
+<!DOCTYPE html>                                                          <!-- version de html v.5 -->
+
+<html lang="es">                                                         <!-- lenguaje español -->
+    <head>                                                               <!-- encabezado de pagina-->
+        <meta charset="utf-8"/>                                          <!-- caracteres emoticones -->
+        <title>EDUCA</title>                                             <!-- titulo del buscador -->
+        <meta name="description" content="PAGINA ESTUDIANTILES"/>        <!-- descripcion de pagina -->
+        <meta name="author" content="EDUCA"/>                            <!-- autor -->
+        <meta name="keywords" content="EDUCA"/>                          <!-- palabras claves al momento de buscar -->
+        <link rel="stylesheet" href="css/Diseño.css">                        <!-- manda a llamar archivo Diseño.css -->
+    </head>
+
+    <body>                                                               <!-- cuerpo de pagina -->
+       
+        <div class="agrupar">
+            <header class="cabecera">                                    <!-- cabeza de pagina -->
+                <h1>PAGINA OFICIAL EDUCA</h3> 
+                    <img src="images/Logo EDUCA colegio.png" />                 <!-- imagen de pagina -->
+            </header>
+    
+            <nav class="menu" >
+                <ul>
+                    <li> <a href="index.html">PRINCIPAL</a></li>
+                    <li> <a href="login.html">CONSULTA DE NOTAS</a></li>
+                    <li> <a href="">CONTACTO</a></li>
+                </ul>
+            </nav>
+
+
+
+
+        <form method="post" action="login.php">
+            <!-- Centrar tabla -->
+            <style>
+            
+                table.tlogin
+                {
+                    margin: auto;
+                }
+            
+            </style>
+
+            <table class="tlogin">
+
+
+                <tr><td  rowspan="5"><img src="images/user.png" /></td><td><label>USUARIO</label></td></tr>
+                <tr><td><input type="text" name="txtusuario"/></td></tr>
+                <tr><td><label>PASSWORD</label></td></tr>
+                <tr><td><input type="password" name="txtpassword" /></td></tr>
+                <tr><td><input type="submit" value="Ingresar" /></td></tr>
+
+            </table>
+        </form>
+
+            
+     </body>
+
+</html>

@@ -1,0 +1,93 @@
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+header,section, footer, aside, nav, article {
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+.agrupar {
+    margin: auto;
+    width: 1200px;
+    border: 1px solid black ;
+    padding: 20px;
+}
+
+.cabecera {
+    background: #ffffff; color: #021239;
+}
+
+img {
+    width: 400px;
+}
+
+.menu {
+    background: #d1d8e0;
+    padding: 15px;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px;  
+    display: inline;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.seccion {
+    margin: 20px;
+    width: 800px;
+    border: 1px solid black;
+    float: left;
+}
+
+.informacion {
+    width: 350px;
+    float: left;
+    border: 1px solid black;
+    margin: 20px 0px;
+}
+
+.informacion footer {
+    margin: 20px 0px;
+}
+
+.informacion p {
+    text-align: justify;
+    width: 300px;
+    margin: auto;
+}
+
+.pie {
+    margin-top:  10px;
+    clear: both;
+}
+
+.alumno {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.observacion {
+    margin-top: 15px;
+}
+
+.comentario {
+    margin-top: 15px;
+    background: #D0D3D4 ;
+    border: 1px solid black;
+    font-size: 23px;
+}
